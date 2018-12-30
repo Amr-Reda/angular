@@ -1,10 +1,9 @@
-export class Dish {
+export class Leader {
     id : string;
     name : string;
     image : string;
-    category : string;
+    designation : string;
+    abbr : string;
     featured : boolean;
-    label : string;
-    price : string;
     description : string;
 }
