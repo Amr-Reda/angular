@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Leader } from '../shared/leader';
 import { LEADERS } from '../shared/leaders';
-import { resolve } from 'dns';
+// import { resolve } from 'dns';
 import { delay } from 'rxjs/operators';
 import { Observable, of } from 'rxjs';
 
